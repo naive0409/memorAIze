@@ -1,0 +1,46 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+*.pyc
+__pycache__/
+*.egg-info/
+
+# 脚本生成的网页
+index.html
+
+# LaTeX 编译产物
+book/*.aux
+book/*.tex
+book/compile.sh
+book/*.log
+book/*.out
+book/*.toc
+book/*.pdf
+book/*.fdb_latexmk
+book/*.fls
+book/*.synctex.gz
+book/missfont.log
+book/texput.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# 项目数据（包含您的私人对话记录）
+chat_data/
+data/
+
+# Reasonix 工作记录
+.reasonix/
+
+# 根目录的 LaTeX 临时文件
+texput.log
+
+# 编辑器
+.idea/
+.vscode/
+*.sublime-*
